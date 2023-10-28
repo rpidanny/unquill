@@ -1,0 +1,10 @@
+{
+  "name": "@rpidanny/unquill-cli",
+  "version": "0.0.1",
+  "dependencies": {},
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "bin": {
+    "unquill": "./bin/run.js"
+  }
+}
