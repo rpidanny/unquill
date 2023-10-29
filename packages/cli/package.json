@@ -1,7 +1,11 @@
 {
   "name": "@rpidanny/unquill-cli",
   "version": "0.0.1",
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^11.1.0",
+    "@rpidanny/unquill-core": "*",
+    "chalk": "^4.1.2"
+  },
   "type": "commonjs",
   "main": "./index.cjs",
   "bin": {
