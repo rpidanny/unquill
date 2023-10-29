@@ -14,7 +14,7 @@
   "dependencies": {
     "@rpidanny/quill": "^1.4.0",
     "@rpidanny/streamline.js": "^1.0.3",
-    "chalk": "^5.3.0",
+    "chalk": "^4.1.2",
     "commander": "^11.1.0",
     "moment": "^2.29.4",
     "node-jq": "^4.2.2",

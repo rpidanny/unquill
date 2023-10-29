@@ -1,6 +1,6 @@
 import { FullLog, LogLevel } from '@rpidanny/quill';
 import { processLine } from '@rpidanny/streamline.js';
-import chalk, { ChalkInstance } from 'chalk';
+import chalk, { Chalk } from 'chalk';
 import moment from 'moment';
 import { run } from 'node-jq';
 import stream from 'stream';
@@ -70,7 +70,7 @@ export class LogFormatter {
   }
 
   private formatLogLevel(level: LogLevel): string {
-    const levelColors: Record<LogLevel, ChalkInstance> = {
+    const levelColors: Record<LogLevel, Chalk> = {
       FATAL: chalk.red,
       ERROR: chalk.red,
       WARN: chalk.yellow,
