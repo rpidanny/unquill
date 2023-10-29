@@ -11,32 +11,34 @@ export class LogFormatter {
   constructor(private readonly options: LogFormatterOptions) {}
 
   async stdoutHandler(readable: stream.Readable) {
-    await processLine(readable, async (line) => {
-      try {
-        const logOutput = await this.formatLog(line);
-        console.log(logOutput);
-      } catch (err) {
-        console.log(line);
-      }
-    });
+    await processLine(readable, this.processLogLine.bind(this));
   }
 
   async stderrHandler(readable: stream.Readable) {
-    await processLine(readable, async (line) => {
-      console.log(chalk.red(line));
-    });
+    await processLine(readable, this.processErrorLine.bind(this));
+  }
+
+  private async processLogLine(line: string) {
+    try {
+      const logOutput = await this.formatLog(line);
+      console.log(logOutput);
+    } catch (err) {
+      console.log(line);
+    }
+  }
+
+  private async processErrorLine(line: string) {
+    console.log(chalk.red(line));
   }
 
   private async formatLog(input: string): Promise<string> {
-    let logOutput;
-
     const log = JSON.parse(input) as FullLog;
 
     const { level, timestamp, service, err, message } = log;
     const stackTrace = err?.stack;
     const errorMessage = err?.message;
 
-    logOutput = `${this.formatTimestamp(timestamp)}${this.formatLogLevel(
+    let logOutput = `${this.formatTimestamp(timestamp)}${this.formatLogLevel(
       level as LogLevel
     )} ${message}`;
 
