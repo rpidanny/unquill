@@ -1,0 +1,14 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["unquill"],
+  "dictionaryDefinitions": [],
+  "words": ["unquill"],
+  "ignorePaths": [
+    "node_modules/**",
+    "**/**/node_modules/**",
+    ".github",
+    ".vscode",
+    "package*.json"
+  ]
+}

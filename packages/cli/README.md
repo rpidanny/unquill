@@ -50,3 +50,7 @@ unquill --jq ".details.userId" -- node app.js
 ```
 
 Using the `--jq` option with a [jq](https://jqlang.github.io/jq/tutorial/) filter, you can selectively include specific fields in the log output.
+
+## Contributing
+
+If you would like to contribute to `Unquill`, please check out the [GitHub repository](https://github.com/rpidanny/unquill) and feel free to submit issues, pull requests, or provide feedback.

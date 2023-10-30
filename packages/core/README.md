@@ -13,3 +13,7 @@ npm i --save @rpidanny/unquill-core
 ## Usage
 
 Unquill Core is primarily designed to be used within the Unquill CLI. For developers interested in extending or customizing log parsing features, refer to the [Unquill CLI](https://github.com/rpidanny/unquill/packages/unquill-cli) component.
+
+## Contributing
+
+If you would like to contribute to `Unquill`, please check out the [GitHub repository](https://github.com/rpidanny/unquill) and feel free to submit issues, pull requests, or provide feedback.

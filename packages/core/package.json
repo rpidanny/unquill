@@ -19,5 +19,12 @@
     "type": "git",
     "url": "https://github.com/rpidanny/unquill.git",
     "directory": "packages/core"
-  }
+  },
+  "keywords": [
+    "quill",
+    "unquill",
+    "logging",
+    "dx",
+    "local-development"
+  ]
 }

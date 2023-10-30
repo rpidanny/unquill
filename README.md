@@ -79,6 +79,4 @@ If you would like to contribute to `Unquill`, please check out the [GitHub repos
 
 ---
 
-`Unquill` is developed and maintained by [@rpidanny](https://github.com/rpidanny). If you have any questions, issues, or suggestions, please feel free to contact us.
-
 Happy log parsing with `Unquill`! 🚀
