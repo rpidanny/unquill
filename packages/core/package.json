@@ -9,7 +9,7 @@
     "moment": "^2.29.4",
     "node-jq": "^4.2.2"
   },
-  "type": "module",
+  "type": "commonjs",
   "main": "./src/index.js",
   "typings": "./src/index.d.ts",
   "publishConfig": {
