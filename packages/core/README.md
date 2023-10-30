@@ -1,11 +1,15 @@
-# core
+# Unquill Core - The Heart of Log Parsing
 
-This library was generated with [Nx](https://nx.dev).
+Unquill Core is a critical component of the Unquill project. It provides the core functionality for parsing JSON logs produced by services using the [Quill](https://github.com/rpidanny/quill) logging library. This component serves as the backbone of the Unquill CLI, making JSON logs more human-readable for a better Developer Experience (DX).
 
-## Building
+## Installation
 
-Run `nx build core` to build the library.
+Install Unquill Core using npm:
 
-## Running unit tests
+```bash
+npm i --save @rpidanny/unquill-core
+```
 
-Run `nx test core` to execute the unit tests via [Jest](https://jestjs.io).
+## Usage
+
+Unquill Core is primarily designed to be used within the Unquill CLI. For developers interested in extending or customizing log parsing features, refer to the [Unquill CLI](https://github.com/rpidanny/unquill/packages/unquill-cli) component.

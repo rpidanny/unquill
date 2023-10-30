@@ -10,5 +10,13 @@
   "main": "./index.cjs",
   "bin": {
     "unquill": "./bin/run.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpidanny/unquill.git",
+    "directory": "packages/cli"
   }
 }
