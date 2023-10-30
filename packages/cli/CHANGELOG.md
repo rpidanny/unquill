@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/rpidanny/unquill/compare/unquill-cli-v1.0.0...unquill-cli-v1.0.1) (2023-10-30)
+
+
+### Bug Fixes
+
+* package type ([54d4f19](https://github.com/rpidanny/unquill/commit/54d4f19222ed0317340607cb9f5df55019827bb3))
+
 # 1.0.0 (2023-10-30)
 
 ### Bug Fixes
