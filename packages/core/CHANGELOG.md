@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/rpidanny/unquill/compare/unquill-core-v1.0.1...unquill-core-v1.0.2) (2023-11-02)
+
+
+### Bug Fixes
+
+* update package.json version on release ([#1](https://github.com/rpidanny/unquill/issues/1)) ([9f66599](https://github.com/rpidanny/unquill/commit/9f66599d6e9d88f33310796180174781f4b807c8))
+
 ## [1.0.1](https://github.com/rpidanny/unquill/compare/unquill-core-v1.0.0...unquill-core-v1.0.1) (2023-10-30)
 
 # 1.0.0 (2023-10-30)
